@@ -1,0 +1,64 @@
+# ======================= Node.js dependencies =======================
+node_modules/            # Ignore node_modules folder (installed packages)
+npm-debug.log*           # Ignore npm debug logs
+yarn-debug.log*          # Ignore Yarn debug logs
+yarn-error.log*          # Ignore Yarn error logs
+pnpm-debug.log*          # Ignore pnpm debug logs
+package-lock.json        # Ignore package-lock.json to prevent conflicts (optional)
+yarn.lock                # Ignore yarn.lock (optional)
+pnpm-lock.yaml           # Ignore pnpm lock file (optional)
+
+# ======================= Environment variables =======================
+.env                     # Ignore main environment file
+.env.local               # Ignore local environment file
+.env.*.local             # Ignore all other local environment overrides
+
+# ======================= Logs =======================
+logs                     # Ignore logs folder
+*.log                    # Ignore all log files
+logs/*                   # Ignore files inside logs folder
+debug.log                # Specific log file
+error.log                # Specific error log
+out.log                  # Specific output log
+
+# ======================= Build / distribution =======================
+dist/                     # Ignore distribution folder
+build/                    # Ignore build folder
+.cache/                   # Ignore cache folder
+.next/                    # Ignore Next.js build output
+.nuxt/                    # Ignore Nuxt.js build output
+out/                      # Ignore static export folder
+
+# ======================= Test coverage =======================
+coverage/                 # Ignore coverage reports
+*.lcov                    # Ignore lcov coverage files
+
+# ======================= OS / IDE specific files =======================
+.DS_Store                 # macOS metadata
+Thumbs.db                 # Windows metadata
+*.swp                     # Swap files (vim)
+*.swo                     # Swap files (vim)
+.idea/                     # IntelliJ IDEA project files
+.vscode/                   # VSCode settings
+*.iml                      # IntelliJ module files
+
+# ======================= Temporary files =======================
+.tmp/                      # Temporary files folder
+.temp/                     # Temporary files folder
+*.pid                      # Process ID files
+*.seed                     # Seed files
+*.pid.lock                 # PID lock files
+
+# ======================= MongoDB dumps =======================
+dump/                      # Ignore MongoDB dump folders
+
+# ======================= Uploads / storage =======================
+uploads/                   # Ignore user-uploaded files
+storage/                   # Ignore storage folder
+
+# ======================= Database files =======================
+*.sqlite                   # Ignore SQLite database files
+
+# ======================= Miscellaneous =======================
+*.tgz                      # Ignore tarball packages
+*.zip                      # Ignore zip archives
